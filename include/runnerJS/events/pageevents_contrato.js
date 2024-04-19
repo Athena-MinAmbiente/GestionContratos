@@ -1,0 +1,10 @@
+
+Runner.pages.PageSettings.addPageEvent('contrato',Runner.pages.constants.PAGE_EDIT,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){pageObj.hideField('cont_fecha_acta_liquidacion');pageObj.hideField('vf_num_autorizacion');pageObj.hideField('vf_fecha');pageObj.hideField('vf_valor');var ctrl=Runner.getControl(pageid,"cont_acta_liquidacion");if(ctrl.getValue()!=1)
+pageObj.hideField('cont_fecha_acta_liquidacion');ctrl.on('change',function(){if(this.getValue()==1){pageObj.showField("cont_fecha_acta_liquidacion");}
+else{pageObj.hideField('cont_fecha_acta_liquidacion');}});var ctrla=Runner.getControl(pageid,"cont_vigencias_futuras");if(ctrla.getValue()!=1)
+pageObj.hideField('vf_num_autorizacion');pageObj.hideField('vf_fecha');pageObj.hideField('vf_valor');ctrla.on('change',function(){if(this.getValue()==1){pageObj.showField('vf_num_autorizacion');pageObj.showField('vf_fecha');pageObj.showField('vf_valor');}
+else{pageObj.hideField('vf_num_autorizacion');pageObj.hideField('vf_fecha');pageObj.hideField('vf_valor');}});});Runner.pages.PageSettings.addPageEvent('contrato',Runner.pages.constants.PAGE_ADD,"afterPageReady",function(pageObj,proxy,pageid,inlineRow,inlineObject,row){pageObj.hideField('cont_fecha_acta_liquidacion');pageObj.hideField('vf_num_autorizacion');pageObj.hideField('vf_fecha');pageObj.hideField('vf_valor');var ctrl=Runner.getControl(pageid,"cont_acta_liquidacion");if(ctrl.getValue()!=1)
+pageObj.hideField('cont_fecha_acta_liquidacion');ctrl.on('change',function(){if(this.getValue()==1){pageObj.showField("cont_fecha_acta_liquidacion");}
+else{pageObj.hideField('cont_fecha_acta_liquidacion');}});var ctrla=Runner.getControl(pageid,"cont_vigencias_futuras");if(ctrla.getValue()!=1)
+pageObj.hideField('vf_num_autorizacion');pageObj.hideField('vf_fecha');pageObj.hideField('vf_valor');ctrla.on('change',function(){if(this.getValue()==1){pageObj.showField('vf_num_autorizacion');pageObj.showField('vf_fecha');pageObj.showField('vf_valor');}
+else{pageObj.hideField('vf_num_autorizacion');pageObj.hideField('vf_fecha');pageObj.hideField('vf_valor');}});});

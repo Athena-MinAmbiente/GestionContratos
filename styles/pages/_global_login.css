@@ -1,0 +1,17 @@
+[data-page="_global_login"][data-itemid="username"] {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Roboto";
+}
+[data-page="_global_login"][data-itemid="login_welcome"] {
+  font-weight: bold;
+  font-size: 18px;
+}
+[data-page="_global_login"][data-itemid="snippet"] {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "Roboto";
+  padding-top: 25px;
+}
+
+

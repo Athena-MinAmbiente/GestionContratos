@@ -1,0 +1,579 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+				<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		<link REL="stylesheet" href="styles/default.css?{$wizardBuildKey}" type="text/css">
+	{BEGIN rtlCSS}
+	<link REL="stylesheet" href="styles/defaultRTL.css?{$wizardBuildKey}" type="text/css">
+	{END rtlCSS}
+	{BEGIN styleCSSFiles}
+	<link REL="stylesheet" href="{$stylepath}" type="text/css">
+	{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-view" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="0"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="view_header" data-itemid="view_header" {$item_view_header} data-pageid="{$pageid}" >{$pagetitlelabel contrato_planilla_liq view}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="0"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="3"
+		
+		data-v-width="6"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c}
+<td
+	{$cell_grid_c}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN id_cont_fk_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_id_cont_fk}  r-vertical-field" data-fieldname="id_cont_fk" data-signal-error-for="id_cont_fk{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2} data-pageid="{$pageid}" data-field="id_cont_fk" data-fieldname="id_cont_fk" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_id_cont_fk}">
+		
+		{BEGIN id_cont_fk_label}{$label contrato_planilla_liq id_cont_fk }{END id_cont_fk_label}
+	</label>
+	<div class="" >
+		{$id_cont_fk_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END id_cont_fk_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c}
+			 
+																
+
+{BEGIN cellblock_grid_c6}
+<td
+	{$cell_grid_c6}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c6" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN contrato_num_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_contrato_num}  r-vertical-field" data-fieldname="contrato_num" data-signal-error-for="contrato_num{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8} data-pageid="{$pageid}" data-field="contrato_num" data-fieldname="contrato_num" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_contrato_num}">
+		
+		{BEGIN contrato_num_label}{$label contrato_planilla_liq contrato_num }{END contrato_num_label}
+	</label>
+	<div class="" >
+		{$contrato_num_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END contrato_num_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c6}
+			 
+																
+
+{BEGIN cellblock_grid_c4}
+<td
+	{$cell_grid_c4}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c4" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN contrato_vigencia_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_contrato_vigencia}  r-vertical-field" data-fieldname="contrato_vigencia" data-signal-error-for="contrato_vigencia{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9} data-pageid="{$pageid}" data-field="contrato_vigencia" data-fieldname="contrato_vigencia" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_contrato_vigencia}">
+		
+		{BEGIN contrato_vigencia_label}{$label contrato_planilla_liq contrato_vigencia }{END contrato_vigencia_label}
+	</label>
+	<div class="" >
+		{$contrato_vigencia_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END contrato_vigencia_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c4}
+								</tr>
+	 
+	 
+														<tr {$row_grid_1} >
+										
+
+{BEGIN cellblock_grid_c8}
+<td
+	{$cell_grid_c8}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c8" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN pago_mensual_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_pago_mensual}  r-vertical-field" data-fieldname="pago_mensual" data-signal-error-for="pago_mensual{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="{$pageid}" data-field="pago_mensual" data-fieldname="pago_mensual" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_pago_mensual}">
+		
+		{BEGIN pago_mensual_label}{$label contrato_planilla_liq pago_mensual }{END pago_mensual_label}
+	</label>
+	<div class="" >
+		{$pago_mensual_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END pago_mensual_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c8}
+			 
+																
+
+{BEGIN cellblock_grid_c9}
+<td
+	{$cell_grid_c9}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c9" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN base_liq_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_base_liq}  r-vertical-field" data-fieldname="base_liq" data-signal-error-for="base_liq{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="{$pageid}" data-field="base_liq" data-fieldname="base_liq" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_base_liq}">
+		
+		{BEGIN base_liq_label}{$label contrato_planilla_liq base_liq }{END base_liq_label}
+	</label>
+	<div class="" >
+		{$base_liq_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END base_liq_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c9}
+			 
+		
+							
+
+{BEGIN cellblock_grid_c10}
+<td
+	{$cell_grid_c10}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c10" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+									</td>
+			{END cellblock_grid_c10}
+								</tr>
+	 
+	 
+														<tr {$row_grid_2} >
+										
+
+{BEGIN cellblock_grid_c11}
+<td
+	{$cell_grid_c11}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c11" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN tipo_administradora_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tipo_administradora}  r-vertical-field" data-fieldname="tipo_administradora" data-signal-error-for="tipo_administradora{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5} data-pageid="{$pageid}" data-field="tipo_administradora" data-fieldname="tipo_administradora" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_tipo_administradora}">
+		
+		{BEGIN tipo_administradora_label}{$label contrato_planilla_liq tipo_administradora }{END tipo_administradora_label}
+	</label>
+	<div class="" >
+		{$tipo_administradora_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END tipo_administradora_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c11}
+			 
+																
+
+{BEGIN cellblock_grid_c12}
+<td
+	{$cell_grid_c12}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c12" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN tipo_subsistema_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_tipo_subsistema}  r-vertical-field" data-fieldname="tipo_subsistema" data-signal-error-for="tipo_subsistema{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10} data-pageid="{$pageid}" data-field="tipo_subsistema" data-fieldname="tipo_subsistema" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_tipo_subsistema}">
+		
+		{BEGIN tipo_subsistema_label}{$label contrato_planilla_liq tipo_subsistema }{END tipo_subsistema_label}
+	</label>
+	<div class="" >
+		{$tipo_subsistema_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END tipo_subsistema_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c12}
+			 
+		
+							
+
+{BEGIN cellblock_grid_c13}
+<td
+	{$cell_grid_c13}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c13" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+									</td>
+			{END cellblock_grid_c13}
+								</tr>
+	 
+	 
+														<tr {$row_grid_3} >
+										
+
+{BEGIN cellblock_grid_c14}
+<td
+	{$cell_grid_c14}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c14" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN clase_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_clase}  r-vertical-field" data-fieldname="clase" data-signal-error-for="clase{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1} data-pageid="{$pageid}" data-field="clase" data-fieldname="clase" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_clase}">
+		
+		{BEGIN clase_label}{$label contrato_planilla_liq clase }{END clase_label}
+	</label>
+	<div class="" >
+		{$clase_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END clase_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c14}
+			 
+																
+
+{BEGIN cellblock_grid_c15}
+<td
+	{$cell_grid_c15}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c15" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN nombre_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_nombre}  r-vertical-field" data-fieldname="nombre" data-signal-error-for="nombre{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3} data-pageid="{$pageid}" data-field="nombre" data-fieldname="nombre" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_nombre}">
+		
+		{BEGIN nombre_label}{$label contrato_planilla_liq nombre }{END nombre_label}
+	</label>
+	<div class="" >
+		{$nombre_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END nombre_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c15}
+			 
+																
+
+{BEGIN cellblock_grid_c16}
+<td
+	{$cell_grid_c16}
+	class=" r-ori-vert"
+	
+			data-single
+			
+			data-cellId="grid_c16" data-pageid="{$pageid}"
+		data-v-cell="2"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN valor_avg_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_valor_avg}  r-vertical-field" data-fieldname="valor_avg" data-signal-error-for="valor_avg{$id}" data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6} data-pageid="{$pageid}" data-field="valor_avg" data-fieldname="valor_avg" data-compact >
+
+		<div class="col-md-12">
+	
+	<label class="" for="{$labelfor_valor_avg}">
+		
+		{BEGIN valor_avg_label}{$label contrato_planilla_liq valor_avg }{END valor_avg_label}
+	</label>
+	<div class="" >
+		{$valor_avg_value}	</div>
+
+		</div>
+		
+</div>
+
+
+{END valor_avg_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c16}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="6"
+	data-v-margin="0"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-6
+	">
+	 
+		{BEGIN back_button}
+<span data-itemtype="view_back_list" data-itemid="view_back_list" {$item_view_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" {$backbutton_attrs} >
+							Volver a la lista			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN close_button}
+<span data-itemtype="view_close" data-itemid="view_close" {$item_view_close} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" href="#" {$closebutton_attrs} >
+							Cerrar ventana			</a>
+</span>
+{END close_button}
+	</div>			 
+				<div 
+	data-cellId="below-grid_c2" data-pageid="{$pageid}"	{$cell_below-grid_c2}
+	class="r-align-right r-ori-vert			col-md-6
+	">
+	 
+		<span data-itemtype="hamburger" data-itemid="hamburger" {$item_hamburger} data-pageid="{$pageid}" data-small data-button-item>
+	<span class="dropdown dropup">
+		<button type="button" title="" class="btn btn-default   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">		
+										<span class="glyphicon glyphicon-menu-hamburger"></span>
+												<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu">
+							{BEGIN edit_page_button}
+	<li data-itemtype="view_edit" data-itemid="view_edit" {$item_view_edit} data-pageid="{$pageid}" data-small >
+				<a  href="contrato_planilla_liq_edit.php?{$editlink}" {$edit_page_button_attrs}  title="" >
+				
+		Editar		
+		</a>
+	</li>
+{END edit_page_button}
+					</ul>
+	</span>
+</span>
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>
